@@ -1,4 +1,4 @@
-#content {
+section {
     max-width: 500px;
     width: 70%;
     margin: 0 auto;
@@ -9,12 +9,18 @@ header {
     border-radius: 7.5px;
 }
 
+h1,h2 {
+    font-family: 'Playfair Display SC', serif;
+}
+
 footer {
     text-align: center;
     background-color: #07ABC8;
     border-radius: 7.5px;
+    
+    
 }
-img {
+#familyportrait {
     max-width: 35%;
     float: right;
     border-radius: 10px;
@@ -24,3 +30,6 @@ img {
 }
 
 a:hover {color: #FF0000;}
+footer a {
+    color: white;
+}
