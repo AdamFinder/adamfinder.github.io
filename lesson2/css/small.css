@@ -1,11 +1,13 @@
 header, footer {
     text-align: center;
     border-radius: 10px;
+    vertical-align: center;
 }
 
 main{
     display: grid;
     grid-template-columns: 1fr;
+    margin-left: 3.5rem;
 }
 
 main section{
@@ -13,6 +15,7 @@ main section{
     margin: 0.5rem;
     padding: 0.5rem;
     border-radius: 10px;
+    text-align: justify;
 }
 
 main section h3 {
