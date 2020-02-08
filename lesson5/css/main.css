@@ -1,9 +1,16 @@
-  header{
-      background-color: #07ABC8;
-      padding: 1.2rem 0;
-      display: flex;
-      align-items: center;
-      justify-content: center;
+  header {
+    background-color: #07ABC8;
+    padding: 1.2rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  header h1, h4 {
+      color: #FFC035;
+  }
+  header p {
+    color: #FFC035;
+    font: large;
   }
 
   header img {
@@ -13,7 +20,7 @@
 
   footer {
     background-color: #07ABC8;
-    color: white;
+    color: #FFC035;
     text-align: center;
     vertical-align: center;
   }
@@ -24,7 +31,7 @@
   
   footer {
     padding: 0.5rem 0rem;
-    font-family: "Crimson Text", serif
+    font-family: "Crimson Text", serif;
   }
     
   nav {
@@ -49,8 +56,11 @@ h4 {
     text-align: center;
 }
 
-h1, h4 {
+h1, h2, h4 {
     font-family: "Crimson Text", serif;
+}
+p {
+  font-family: "Muli", sans-serif;
 }
 
 .box {
@@ -125,7 +135,6 @@ h1, h4 {
    left: 25px;
    padding: 1rem;
    background-color: rgba(41, 128, 209, 0.6);
-   text-shadow: white;
  }
  .forecast {
    display: none;
@@ -143,6 +152,7 @@ h1, h4 {
    border-left: 1px solid black;
    border-bottom: 1px solid black;
    padding: 1rem;
+   background-color: rgba(16, 50, 60, 0.65);
  }
  .flist:last-child {
    border-right: 1px solid black;
@@ -183,4 +193,8 @@ h1, h4 {
 }
 .hidden {
   display: none;
+}
+
+.fitem p {
+  color: white;
 }
