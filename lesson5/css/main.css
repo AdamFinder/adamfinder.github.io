@@ -8,9 +8,10 @@
   header h1, h4 {
       color: #052547;
   }
+
   header p {
     color: #052547;
-    font: large;
+    font-size: 1em;
   }
 
   header img {
@@ -98,6 +99,7 @@ p {
     text-decoration: underline;
     text-align: center;
     padding: 1rem;
+    font-family: "Muli", sans-serif;
   }
   
   .navigation a:hover {
