@@ -6,10 +6,10 @@
     justify-content: center;
   }
   header h1, h4 {
-      color: #FFC035;
+      color: #052547;
   }
   header p {
-    color: #FFC035;
+    color: #052547;
     font: large;
   }
 
@@ -20,7 +20,7 @@
 
   footer {
     background-color: #07ABC8;
-    color: #FFC035;
+    color: #052547;
     text-align: center;
     vertical-align: center;
   }
