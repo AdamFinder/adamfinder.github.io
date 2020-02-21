@@ -1,0 +1,31 @@
+body {
+    font-family: 'Catamaran', sans-serif;
+}
+
+picture img[data-src] {
+    filter: blur(0em);
+    transition: filter 0.5s;
+}
+
+picture img {
+    filter: blur(0.2em);
+}
+
+h1 {
+    text-align: center;
+}
+
+picture {
+    display: grid;
+    justify-items: center;
+}
+
+img {
+    border: 2px solid #000000;
+    padding: 2px;
+}
+
+.imgcol {
+    display: grid;
+    grid-column: 1;
+}
