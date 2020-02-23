@@ -1,0 +1,13 @@
+@media (min-width: 32.5em) {
+    .forecast {
+        display: flex;
+    }
+    .map {
+        display: block;
+    }
+    .gallery {
+        grid-template-columns: repeat(2, 350px);
+        justify-self: center;
+    }
+
+}
