@@ -114,6 +114,14 @@ header {
       margin: 2%;
   }
 
+  form label.top input:required {
+    border-left: #a00b0b solid 6px;
+  }
+  form label.top input:valid {
+    border-left: #199bce solid 6px;
+  }
+  
+
   form label.top select {
       width: 80%;
       padding: 0.75rem;
