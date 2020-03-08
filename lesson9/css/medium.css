@@ -1,0 +1,63 @@
+@media only screen and (min-width: 35rem) {
+    .wcontent {
+        max-width: 700px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+        grid-gap: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .wcontent section h2 {
+        margin-bottom: 5px;
+    }
+
+    .wcontent section div.txt div {
+        padding: 8px;
+    }
+
+    .wcontent section {
+        width: auto;    
+        background-color: #353c3d;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: "Crimson Text", sans-serif;
+    }
+
+    .wcontent section div.txtImage {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .wcontent section:nth-child(2) div.txtImage {
+        flex-direction: row-reverse;
+        padding-left: 15px;
+    }
+
+    .wcontent section div.txt {
+        padding-left: 40px;
+        width: 100%;
+    }
+
+    .wcontent section div.image {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding-right: 15px;
+    }
+    
+    .wcontent section img {
+        height: 220px;
+        width: 100%;
+    }
+    .wcontent h4{
+        color: white;
+        font-family: "Muli", serif;
+    }
+}
