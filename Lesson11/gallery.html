@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+        <title>Weather 4 Air Travel</title>
+        <link rel="stylesheet" href="../css/normalize.css">
+        <link rel="stylesheet" href="css/small.css">
+        <link rel="stylesheet" href="css/large.css">
+        <link rel="stylesheet" href="css/medium.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="icon" href="favicon.ico">
+        <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Crimson+Text&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+        <div>
+            <img src="images/weather-image.png" id="logo" alt="weather-icon">
+            </div>
+            <div id="first">
+            <h1>Weather 4 Air Travel</h1>
+            <p>Air on the side of caution.</p>
+            </div>
+        </header>
+        <nav class="fwidth">            
+            <ul class="width navigation">
+                <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a class="active" href="https://adamfinder.github.io/lesson7/preston-7.html">Preston</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a href="#">Storm Center</a></li>
+                <li><a href="https://adamfinder.github.io/lesson7/gallery-7.html">Gallery</a></li>
+            </ul>
+            </nav>
+            <main>
+                <section class="gallery">
+                    <h1 class="galleryhead">Gallery</h1>
+                    <hr>
+                    <hr>
+                    <div class="galleryimg">
+                        <img src="https://via.placeholder.com/400x300.jpg" data-src="images/clear_skies400x300.jpg" alt="clear skies">
+                        <div class="tag">Clear Skies!</div>
+                    </div>
+                    <div class="galleryimg">
+                        <img src="https://via.placeholder.com/400x300.png" data-src="images/cold_night400x300.jpg" alt="cold evening">
+                        <div class="tag">Chilly Evening</div>
+                    </div>
+                    <div class="galleryimg">
+                        <img src="https://via.placeholder.com/400x300.png" data-src="images/icy_weather400x300.jpg" alt="icy weather">
+                        <div class="tag">Icy Weather</div>
+                    </div>
+                    <div class="galleryimg">
+                        <img src="https://via.placeholder.com/400x300.png" data-src="images/intermittent_clouds400x300.jpg" alt="intermittent clouds">
+                        <div class="tag">Intermittent Clouds</div>                        
+                    </div>
+                    <div class="galleryimg">
+                        <img src="https://via.placeholder.com/400x300.png" data-src="images/mostly_sunny_warm400x300.jpg" alt="warm sunny day">
+                        <div class="tag">Warm and Sunny</div>                        
+                    </div>
+                    <div class="galleryimg">
+                        <img src="https://via.placeholder.com/400x300.png" data-src="images/rain_foggy400x300.jpg" alt="foggy and rainy day">
+                        <div class="tag">Fog and Rain</div>
+                    </div>
+                    <div class="galleryimg">
+                        <img src="https://via.placeholder.com/400x300.png" data-src="images/snowy_weather400x300.jpg" alt="Snowy">
+                        <div class="tag">Snowy</div>
+                    </div>
+                    <div class="galleryimg">
+                        <img src="https://via.placeholder.com/400x300.png" data-src="images/thunderstorms400x300.jpg" alt="thunderstorm">
+                        <div class="tag">Thunderstorms</div>
+                    </div>
+                    <div class="galleryimg">
+                        <img src="https://via.placeholder.com/400x300.png" data-src="images/mostly_cloudy_light_showers400x300.jpg" alt="light showers">
+                        <div class="tag">Light Showers</div>                       
+                    </div>
+                </section>
+            </main>
+            <footer>
+                <p>&copy;2020 | Weather 4 Air Travel | Adam Finder</p>
+                <p>Current Date: 
+                    <span id="currentdate"></span>
+                </p>
+            </footer>
+            <script src="js/imagehandling.js"></script>
+            <script src="js/menu.js"></script>
+            <script src="js/currentdate.js"></script>
+    </body>
+</html>
