@@ -1,0 +1,122 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+        <meta name="cityname" content="Soda Springs">
+        <title>Weather 4 Air Travel</title>
+        <link rel="stylesheet" href="../css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/large.css">
+        <link rel="stylesheet" href="css/medium.css">
+        <link rel="stylesheet" href="css/summary.css">
+        <link rel="icon" href="favicon.ico">
+        <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Crimson+Text&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="promo">
+            <div class="contentwidth">
+                Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion. 
+            </div>
+        </div>
+        <header>
+            <div>
+            <img src="images/weather-image.png" id="logo" alt="weather-icon">
+            </div>
+            <div id="first">
+            <h1>Weather 4 Air Travel</h1>
+            <p>Air on the side of caution.</p>
+            </div>
+        </header>
+        <nav class="fwidth">            
+        <ul class="width navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="https://adamfinder.github.io/lesson11b/index.html">Home</a></li>
+            <li><a href="https://adamfinder.github.io/lesson11b/preston.html">Preston</a></li>
+            <li><a class="active" href="https://adamfinder.github.io/lesson11b/sodasprings.html">Soda Springs</a></li>
+            <li><a href="https://adamfinder.github.io/lesson11b/fishhaven.html">Fish Haven</a></li>
+            <li><a href="https://adamfinder.github.io/lesson11b/stormcenter.html">Storm Center</a></li>
+            <li><a href="https://adamfinder.github.io/lesson11b/gallery.html">Gallery</a></li>
+        </ul>
+        </nav>
+        <main class="contentwidth">
+            <section id="second">
+                <h1>Soda Springs</h1>
+            </section>
+            <section class="hero">
+                <picture>
+                    <source 
+                        media="(max-width: 32.5em)"
+                        srcset="images/heropic-small.jpg">
+                    <source
+                        media="(max-width: 60em)"
+                        srcset="images/heropic-medium.jpg">
+                    <img 
+                        class="heropic"
+                        src="images/heropic-large.jpg" alt="dark mountains">
+                </picture>
+                <div class="summary">
+                    <h2>Weather Summary</h2>
+                    <hr>
+                    <p>Currently: <span id="currently"></span></p>
+                    <p>High: <span id="hightemp"></span>&deg;F</p>
+                    <p>Wind Chill: <span id="windchill"></span></p>
+                    <p>Humidity: <span id="humidity"></span>%</p>
+                    <p>Wind Speed: <span id="windspeed"></span> mph</p>
+                </div>
+            </section>
+            <div class="forecast">
+                <h2>5 Day Forecast</h2>
+                <div id="liveforecast" class="flex"></div>                
+            </div>
+            <section class="event">
+                <h2>Local Events</h2>
+                <hr>
+                <div id="eventlist"></div>
+            </section>
+           <article>
+            <img src="images/mountainrange.jpg" class="aimage" alt="idaho mountains">
+            <h2>Portneuf River Back-Country Horsemen seek to build forest trails</h2>
+            <p>A group of Pocatello area residents who love to ride horses in the forest are trying to create a coalition of volunteers to help maintain trails for riders and other trail users, said Steve Hurley, president of the Portneuf River Back-Country Horsemen.</p>
+            <p>Hurley, 74, says a coalition beyond the 30 or so members of the horsemen would have mutual benefits for all trail users.</p>
+            <p>The retired Idaho State University pharmacy professor, who’s been riding horses for about 10 years, still finds joy in taking his horse on backcountry rides in the Caribou-Targhee National Forest in the Pocatello area.<a href="https://www.idahostatejournal.com/community/portneuf-river-back-country-horsemen-seek-to-build-forest-trails/article_7b9e5b29-3aa9-5f32-b842-0ed96f031614.html"> ...Continue Reading</a></p>
+            
+            </article>
+
+           <section class="contact">
+               <div class="map">
+                <img src="images/soda-map.jpg" alt="preston area map">
+               </div>
+               <div class="info">
+                <h2>Contact Us</h2>
+                <p>&phone;: 999-999-9999</p>
+                <p>&#9993;: Weather4airtravel@gmail.com</p>
+               </div>
+            </section>
+        </main>
+        <footer>
+            <p>&copy;2020 | Weather 4 Air Travel | Adam Finder</p>
+            <p>Current Date: 
+                <span id="currentdate"></span>
+            </p>
+        </footer>
+        <script src="js/currentdate.js"></script>
+        <script src="js/menu.js"></script>
+        <script src="js/promo.js"></script>
+        <script src="js/windchill.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+        <script>
+            WebFont.load({
+                google: {
+                    families: [
+                        'Crimson Text'
+                    ]
+                }
+            })
+        </script>
+        <script src="js/sodaforecast.js"></script>
+        <script src="js/sodaweather.js"></script>
+        <script src="js/events.js"></script>
+    </body>
+</html> 
