@@ -1,0 +1,14 @@
+{
+    "guides": [
+        {
+            "name": "Adam",
+            "lastname": "Finder",
+            "years": "5 years",
+            "email": "adamfinder33@gmail.com",
+            "certs": "ACA Certified",
+            "image": "images/portrait1.jpg",
+            "bio": "Adam enjoys rafting and wants to share the expierence with as many as he can."
+        }
+    ]
+}
+
