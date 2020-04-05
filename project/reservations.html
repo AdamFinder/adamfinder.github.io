@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="weather site home page.">
+        <link rel="stylesheet" href="../css/normalize.css">
+        <link rel="icon" href="favicon.ico">
+        <link rel="stylesheet" href="css/hf.css">
+        <link rel="stylesheet" href="css/small.css">
+        <link rel="stylesheet" href="css/medium.css">
+        <link rel="stylesheet" href="css/large.css">
+        <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Crimson+Text&display=swap" rel="stylesheet">
+        <title>Triple 'R' Rafting</title>
+    </head>
+    
+    <body>
+        <header>
+            <div>
+                <img src="images/Logo.png" id="logo" alt="logo picture">
+            </div>
+            <div>
+                <h1>Triple 'R' Rafting</h1>
+                <p>
+                    River, Raging or Relaxing?
+                </p>
+            </div>
+        </header>
+        <nav class="navbar">
+            <ul class="navigation">
+                <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+                <li><a href="https://adamfinder.github.io/project/index.html">Home</a></li>
+                <li><a href="https://adamfinder.github.io/project/guides.html">River Guides</a></li>
+                <li><a href="https://adamfinder.github.io/project/contact.html">Contact Us</a></li>
+                <li><a href="https://adamfinder.github.io/project/reservations.html">Reservations</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <section>
+                <h1>Trip Summaries</h1><hr>
+            </section>
+
+            <section>
+
+                
+            </section>
+
+            <form action="thanks.html">
+                <fieldset>
+                    <legend>Customer Information</legend>
+                    <label class="top">First Name: <input type="text" name="fname" required></label>
+                    <label class="top">Last Name: <input type="text" name="lname" required></label>
+                    <label class="top">Email: <input type="text" name="email" required></label>
+                    <label class="top">Phone: <input type="text" name="phone"></label>
+                </fieldset>
+                <fieldset>
+                    <legend>Trip Information</legend>
+                    <label class="bot">Trip Date & Time: <input type="datetime-local" required></label>
+                    <label class="bot">Adventure: 
+                        <select class="adventure">
+                            <option id="select" value="">Select Adventure</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                        </select>
+                    </label>
+                    <label style="display:flex; flex-direction: column;" class="bot">Question and Comments:
+                        <textarea style="margin-top: 20px;"></textarea>
+                    </label>
+                </fieldset>
+                <input class="submit" type="submit" value="Submit Reservation">
+            </form>
+
+        </main>
+
+        <footer>
+            <p>&copy;2020 | Triple 'R' Rafting | Adam Finder</p>
+        <p>Current Date: 
+            <span id="currentdate"></span>
+        </p>
+    </body>
+</html>

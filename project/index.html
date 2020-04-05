@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="weather site home page.">
+        <link rel="stylesheet" href="../css/normalize.css">
+        <link rel="icon" href="favicon.ico">
+        <link rel="stylesheet" href="css/hf.css">
+        <link rel="stylesheet" href="css/small.css">
+        <link rel="stylesheet" href="css/medium.css">
+        <link rel="stylesheet" href="css/large.css">
+        <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Crimson+Text&display=swap" rel="stylesheet">
+        <title>Triple 'R' Rafting</title>
+    </head>
+
+    <body>
+        <header>
+            <div>
+                <img src="images/Logo.png" id="logo" alt="logo picture">
+            </div>
+            <div>
+                <h1>Triple 'R' Rafting</h1>
+                <p>
+                    River, Raging or Relaxing?
+                </p>
+            </div>
+        </header>
+        <nav class="navbar">
+            <ul class="navigation">
+                <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+                <li><a href="https://adamfinder.github.io/project/index.html">Home</a></li>
+                <li><a href="https://adamfinder.github.io/project/guides.html">River Guides</a></li>
+                <li><a href="https://adamfinder.github.io/project/contact.html">Contact Us</a></li>
+                <li><a href="https://adamfinder.github.io/project/reservations.html">Reservations</a></li>
+            </ul>
+        </nav>
+        <img src="images/Whitewater banner.jpg">
+        <main>
+            <section>
+            <h1>Spectacular White Water Rafting.</h1>
+            <h3>Family Run Since 1982</h3>
+            <p>We have close to 40 years of guide experience taking travelers through the spectacular Idaho scenery of the Salmon River. Our Salmon River runs can offer a respite from your hectic world, free of distractions, or offer a well needed adrenaline rush. Our experienced guides work closley with our individual clients to customize a rafting adventure that will be an unforgettable and unparralled white water journey. We can offer a choice of relaxing, exhilerating, individual or group adventures.
+                You customize your vacation and we'll make it happen. </p>
+            </section>
+            <section>
+                <div id="summary">
+                    <h2>Weather Summary</h2>
+                    <hr>
+                    <p>Currently: <span id="currently"></span></p>
+                    <p>High: <span id="hightemp"></span>&deg;F</p>
+                    <p>Wind Chill: <span id="windchill"></span></p>
+                    <p>Humidity: <span id="humidity"></span>%</p>
+                    <p>Wind Speed: <span id="windspeed"></span> mph</p>
+                </div>
+                <p>Sign up today!<a href="https://adamfinder.github.io/project/reservations.html"> Make a Reservation!</a> </p>
+            </section>
+
+            <section>
+                <h1>Local News & Events</h1><hr>
+            </section>
+
+            <section>
+                <img src="images/home-page-side.jpg">
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy;2020 | Triple 'R' Rafting | Adam Finder</p>
+        <p>Current Date: 
+            <span id="currentdate"></span>
+        </p>
+        </footer>
+        <script src="js/menu.js"></script>
+        <script src="js/currentdate.js"></script>
+        <script src="js/rigginsweather.js"></script>
+    </body>
+</html>

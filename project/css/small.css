@@ -1,0 +1,37 @@
+nav {
+    background-color: #1b6674;
+  }
+  .navigation {
+    display: block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navigation li {
+      display: none;
+  }
+  
+  .navigation li:first-child {
+      display: block;
+  }
+  
+  .navigation li a {
+    display: block;
+    background-color: #1b6674;
+    color: #dadee0;
+    text-decoration: underline;
+    text-align: center;
+    padding: 1rem;
+    font-family: "Muli", sans-serif;
+  }
+  
+  .navigation a:hover {
+    background-color: #08d6fc;
+    color: #650891;
+    
+  }
+
+  .responsive li {
+    display: block;
+  }

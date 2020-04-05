@@ -1,0 +1,36 @@
+header {
+    background-color: rgb(73, 92, 109);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  header h1, h4 {
+      color: #D4D06A;
+  }
+
+  header p {
+    color: #D4D06A;
+    font-size: 1em;
+  }
+
+  header img {
+      width: 100px;
+      padding: 1em;
+      height: auto;
+  }
+
+  footer {
+    background-color: rgb(73, 92, 109);
+    color: #D4D06A;
+    text-align: center;
+    vertical-align: center;
+  }
+  
+  header {
+    padding-top: 0rem;
+  }
+  
+  footer {
+    padding: 0.5rem 0rem;
+    font-family: "Crimson Text", serif;
+  }
