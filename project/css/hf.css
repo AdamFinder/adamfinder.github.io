@@ -11,8 +11,9 @@ header {
   }
 
   header p {
-    color: #D4D06A;
+    color: rgb(235, 233, 172);
     font-size: 1em;
+    font-weight: bold;
   }
 
   header img {

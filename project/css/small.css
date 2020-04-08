@@ -27,8 +27,8 @@ nav {
   }
   
   .navigation a:hover {
-    background-color: #08d6fc;
-    color: #650891;
+    background-color: #00d9ff;
+    color: #000000;
     
   }
 
@@ -53,6 +53,12 @@ nav {
   .banner {
     width: 100%;
     height: 150px;
+  }
+  a:hover {
+    color: rgb(255, 255, 255);
+  }
+  a:visited {
+    color: rgb(139, 227, 253);
   }
 #weatherleft {
   display: flex;
