@@ -6,22 +6,25 @@
         <meta name="description" content="weather site home page.">
         <link rel="stylesheet" href="../css/normalize.css">
         <link rel="icon" href="favicon.ico">
+        <link rel="stylesheet" href="css/hf.css">
         <link rel="stylesheet" href="css/small.css">
         <link rel="stylesheet" href="css/medium.css">
         <link rel="stylesheet" href="css/large.css">
-        <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Crimson+Text&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap" rel="stylesheet">
         <title>Triple 'R' Rafting</title>
     </head>
     
     <body>
         <header>
             <div>
-
+                <img src="images/Logo.png" id="logo" alt="logo picture">
             </div>
             <div id="head">
                 <h1>Triple "R" Rafting</h1>
-                <p>motto</p>
+                <p>
+                    River, Raging or Relaxing?
+                </p>
             </div>
         </header>
         <nav class="navbar">
@@ -31,11 +34,50 @@
                 <li><a href="https://adamfinder.github.io/project/guides.html">River Guides</a></li>
                 <li><a href="https://adamfinder.github.io/project/contact.html">Contact Us</a></li>
                 <li><a href="https://adamfinder.github.io/project/reservations.html">Reservations</a></li>
+                <li><a href="https://adamfinder.github.io/project/adventures.html">Adventures</a></li>
             </ul>
         </nav>
 
         <main>
-            <div class="cards"></div>
+            <section id="gfirst">
+                <div class="gleft">
+                    <h2>Chad Roth</h2>
+                        <p>Certifications: Certified with the Oars Organization. Includes wilderness
+                        first responder certificate, CPR trained and certified in swift water rescue.</p>
+                        <p>Experience: Three years' experience as a park ranger. Five years' experience as a white water rafting guide.</p>
+                        <p>Email: ChadRoth@tripleRrafting.com</p>
+                        <p>Biography: Born and raised in Idaho, he obtained his undergraduate degree in forestry at BYU Idaho, and worked as a park ranger for the U.S. Forest Service in the Riggins, ID office. Chad joined Triple ‘R’ Rafting three years ago. His experience with forest service gives intimate knowledge of the surrounding area and its points of interest.</p>
+                </div>
+                <div class="gright">
+                    <img class="guide1" src="images/portrait1.jpg" alt="guide 1">
+                </div>
+            </section>
+            <hr>
+            <section id="gsecond">
+                <div class="gleft">
+                <img class="guide2" src="images/portrait2-revised.jpg">
+                </div>
+                <div class="gright">
+                <h2>Dan Stoker</h2>
+                <p>Certifications: Dan is a level four ACA certificate holder and level five advanced swift water safety and rescue. Wilderness first responder and is CPR, AED, and first aid certified.</p>
+                <p>Experience: 7 Years’ Experience in river kayaking and white water rafting.</p>
+                <p>Email: DanStoker@tripleRrafting.com</p>
+                <p>Biography: Dan was born and raised in Idaho and is a self-proclaimed outdoorsman. Dan started rafting with his family at the age of seven. He worked summers for several local rafting companies through high school and college, and now works full time offering guide services and rafting tours for Triple ‘R’ Rafting.</p>
+                </div>
+            </section>
+            <hr>
+            <section id="gthird">
+                <div class="gleft">
+                <h2>Samantha (Sam) Langley</h2>
+                <p>Sam is a level 3 ACA certificate holder for white water rafting. CPR trained, trained and certified in swift water rescue.</p>
+                <p>Experience: 5 Years’ Experience running guided river tours.</p>
+                <p>Email: samlangley@tripleRrafting.com</p>
+                <p>Biography: Sam grew up on Montana along the Clark Fork River and started her river adventures as a teenager while working for her family run business. Sam became certified and met her husband who is an Idaho native and river guide. Same now resides in Riggins, ID with her family and joined Triple ‘R’ Rafting as an experienced guide two years ago.</p>
+                </div>
+                <div class="gright">
+                    <img class="guide1" src="images/portrait3-revised.jpg">
+                </div>
+            </section>
         </main>
 
         <footer>
@@ -44,6 +86,7 @@
             <span id="currentdate"></span>
         </p>
         </footer>
-        <script src="js/guides.js"></script>
+        <script src="js/menu.js"></script>
+        <script src="js/currentdate.js"></script>
     </body>
 </html>

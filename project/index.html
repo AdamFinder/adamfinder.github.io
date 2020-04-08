@@ -10,8 +10,8 @@
         <link rel="stylesheet" href="css/small.css">
         <link rel="stylesheet" href="css/medium.css">
         <link rel="stylesheet" href="css/large.css">
-        <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Crimson+Text&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap" rel="stylesheet">
         <title>Triple 'R' Rafting</title>
     </head>
 
@@ -34,46 +34,73 @@
                 <li><a href="https://adamfinder.github.io/project/guides.html">River Guides</a></li>
                 <li><a href="https://adamfinder.github.io/project/contact.html">Contact Us</a></li>
                 <li><a href="https://adamfinder.github.io/project/reservations.html">Reservations</a></li>
+                <li><a href="https://adamfinder.github.io/project/adventures.html">Adventures</a></li>
             </ul>
         </nav>
-        <img src="images/Whitewater banner.jpg">
         <main>
+            <section>
+                <picture>
+                    <source 
+                        media="(max-width: 32.5em)"
+                        srcset="images/rapids-banner-400.jpg">
+                    <source
+                        media="(max-width: 60em)"
+                        srcset="images/rapids-banner-600.jpg">
+                    <img 
+                        class="banner"
+                        src="images/rapids-banner-1000.jpg" alt="dark mountains">
+                </picture>
+            </section>
             <section>
             <h1>Spectacular White Water Rafting.</h1>
             <h3>Family Run Since 1982</h3>
             <p>We have close to 40 years of guide experience taking travelers through the spectacular Idaho scenery of the Salmon River. Our Salmon River runs can offer a respite from your hectic world, free of distractions, or offer a well needed adrenaline rush. Our experienced guides work closley with our individual clients to customize a rafting adventure that will be an unforgettable and unparralled white water journey. We can offer a choice of relaxing, exhilerating, individual or group adventures.
                 You customize your vacation and we'll make it happen. </p>
             </section>
-            <section>
-                <div id="summary">
-                    <h2>Weather Summary</h2>
+            <section id="weatherleft">
+                <div class="leftsummary">
+                    <h2>Current Forecast</h2>
                     <hr>
                     <p>Currently: <span id="currently"></span></p>
                     <p>High: <span id="hightemp"></span>&deg;F</p>
                     <p>Wind Chill: <span id="windchill"></span></p>
                     <p>Humidity: <span id="humidity"></span>%</p>
                     <p>Wind Speed: <span id="windspeed"></span> mph</p>
+                    <p>Sign up today!<a class="coa" href="https://adamfinder.github.io/project/reservations.html"> Make a Reservation!</a> </p>
                 </div>
-                <p>Sign up today!<a href="https://adamfinder.github.io/project/reservations.html"> Make a Reservation!</a> </p>
+                <div class="imageright">
+                    <img class="homeimage" src="images/home-test.jpg" alt="home rapid picture">
+                </div>
             </section>
-
             <section>
-                <h1>Local News & Events</h1><hr>
+                <div class="news"> 
+                    <h1>Local News & Events</h1><hr>
+                        <h2>Salmon River Jet Boat Races</h2>
+                            <p>Salmon River Jet Boat Race Association LLC</p>
+                            <p>ANNUAL SALMON RIVER JET BOAT RACE (founded 1984)</p>
+                            <p>Date:  April 17, 18 and 19, 2020</p>
+                            <p>Sponsored by the Salmon River Jet Boat Race Association LLC</p>
+                            <p>Spectacular boats, drivers and navigators put on a terrific show down the Main Salmon River—The River of No Return the third weekend of April each year!<a href="https://rigginsidaho.com/event/salmon-river-jet-boat-races/">...Continue Reading</a></p>
+                        <h2>Annual Riggins Rodeo</h2>
+                            <p>May 2 & 3, 2020 – Sponsored by the Salmon River Cowboy Association at the Riggins Rodeo Grounds starting at 1:30 pm each day.</p>
+                            <p>Cowboy Breakfast, Sunday, May 3 at 6:00 am to 10:00 am, Riggins Community Center</p>
+                            <p>The traditional parade delights those of all ages on Sunday, May 3 at 11:00 am down our Main Street starting at the Riggins City Park</p>
+                            <p>More information at <a href="http://www.rigginsrodeo.com/">www.rigginsrodeo.com</a></p>
+                </div>
             </section>
+            <footer>
+                <p>&copy;2020 | Triple 'R' Rafting | Adam Finder</p>
+            <p>Current Date: 
+                <span id="currentdate"></span>
+            </p>
+            </footer>
 
-            <section>
-                <img src="images/home-page-side.jpg">
-            </section>
         </main>
-
-        <footer>
-            <p>&copy;2020 | Triple 'R' Rafting | Adam Finder</p>
-        <p>Current Date: 
-            <span id="currentdate"></span>
-        </p>
-        </footer>
         <script src="js/menu.js"></script>
         <script src="js/currentdate.js"></script>
         <script src="js/rigginsweather.js"></script>
+        <script>
+
+        </script>
     </body>
 </html>

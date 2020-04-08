@@ -10,8 +10,8 @@
         <link rel="stylesheet" href="css/small.css">
         <link rel="stylesheet" href="css/medium.css">
         <link rel="stylesheet" href="css/large.css">
-        <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Crimson+Text&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap" rel="stylesheet">
         <title>Triple 'R' Rafting</title>
     </head>
     
@@ -27,6 +27,7 @@
                 </p>
             </div>
         </header>
+        <main>
         <nav class="navbar">
             <ul class="navigation">
                 <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
@@ -34,10 +35,11 @@
                 <li><a href="https://adamfinder.github.io/project/guides.html">River Guides</a></li>
                 <li><a href="https://adamfinder.github.io/project/contact.html">Contact Us</a></li>
                 <li><a href="https://adamfinder.github.io/project/reservations.html">Reservations</a></li>
+                <li><a href="https://adamfinder.github.io/project/adventures.html">Adventures</a></li>
             </ul>
         </nav>
 
-        <main>
+        
             <section>
                 <h1>Trip Summaries</h1><hr>
             </section>
@@ -61,9 +63,9 @@
                     <label class="bot">Adventure: 
                         <select class="adventure">
                             <option id="select" value="">Select Adventure</option>
-                            <option value="1">1</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
+                            <option value="1">Scenic</option>
+                            <option value="2">Rapids</option>
+                            <option value="3">Vacation</option>
                         </select>
                     </label>
                     <label style="display:flex; flex-direction: column;" class="bot">Question and Comments:
@@ -72,13 +74,17 @@
                 </fieldset>
                 <input class="submit" type="submit" value="Submit Reservation">
             </form>
+            <footer>
+                <p>&copy;2020 | Triple 'R' Rafting | Adam Finder</p>
+            <p>Current Date: 
+                <span id="currentdate"></span>
+            </p>
+            </footer>
 
         </main>
 
-        <footer>
-            <p>&copy;2020 | Triple 'R' Rafting | Adam Finder</p>
-        <p>Current Date: 
-            <span id="currentdate"></span>
-        </p>
+
+        <script src="js/menu.js"></script>
+        <script src="js/currentdate.js"></script>
     </body>
 </html>

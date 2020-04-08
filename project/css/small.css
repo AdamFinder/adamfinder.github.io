@@ -35,3 +35,129 @@ nav {
   .responsive li {
     display: block;
   }
+  main {
+    background-color: #133453;
+  }
+  p {
+    color: rgb(223, 219, 219);
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.2em;
+    display: block;
+  }
+  .coa {
+    color: rgb(212, 212, 88);
+  }
+  .coa a:hover {
+    color: white;
+  }
+  .banner {
+    width: 100%;
+    height: 150px;
+  }
+#weatherleft {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+.leftsummary, .imageright {
+  flex: 1 0 15em;
+  margin: .5em;
+}
+.homeimage {
+width: 100%;
+}
+
+#gfirst, #gsecond, #gthird {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+.gleft, .gright {
+  flex: 1 0 15;
+  margin: .5em;
+  width: 48%;
+}
+
+form fieldset {
+  margin: 2rem 0;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  padding: .5rem 2%;
+}
+
+form legend {
+  color: #D4D06A;
+  font-family: 'Crimson Text', serif;
+  margin: 0 1rem;
+  padding: 0 .5rem;
+}
+label {
+  font-family: 'Rubik', sans-serif;
+  color:  rgb(223, 219, 219);
+}
+form label.top input, form label.bot input {
+  display: block;
+  font-size: 1rem;
+  border: solid 1px #000000;
+  border-radius: 4px;
+  padding: 0.75rem;
+  margin: 2%;
+}
+
+form label.top input:required {
+border-left: #a00b0b solid 6px;
+}
+form label.top input:valid {
+border-left: #199bce solid 6px;
+}
+
+
+form label.top select, form label.bot select {
+  width: 80%;
+  padding: 0.75rem;
+  margin: 2%;
+  font-family: "crimson-text", serif;
+}
+
+form label.range-label {
+  padding-top: 2rem;
+  font-size: .9rem;
+}
+
+form label.top, form div, form label.select-css, form label.bot {
+  display: block;
+  padding-top: 1rem;
+  font-size: .9rem;
+}
+
+form label.top textarea, form label.bot textarea {
+  width: 50%;
+  height: 120px;
+  border: 3px solid #000000;
+  padding: 5px;
+}
+#select {
+  color: #011936;
+  font-family: 'Rubik', sans-serif;
+  width: 50%;
+}
+
+option {
+  font-family: 'Rubik', sans-serif;
+
+}
+
+form input {
+display: block;
+}
+
+form input.submit {
+border: none;
+font-family: 'Rubik', sans-serif;
+background-color: rgb(79, 179, 209);
+color: rgb(0, 0, 0);
+border-radius: 1rem;
+padding: .75rem;
+margin: 0 0 2rem 2%;
+width: 50%;
+}
