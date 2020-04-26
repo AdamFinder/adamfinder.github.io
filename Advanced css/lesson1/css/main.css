@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+ h1, h2{
+    font-family: 'Lora', serif;
+}
+
+header {
+    background-color: #6495ED;
+    text-align: center;
+    width: 100%;
+    color: #FAEBD7;
+    margin-top: -22px;
+}
+header nav {
+    text-align: right;
+    text-decoration: none; 
+}
+header h1 a {
+    color: #FAEBD7;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+}
+li a {
+    color: #FAEBD7;
+
+}
+body {
+    background-color: #FAEBD7;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+nav li a:visited {
+    color: #FAEBD7;
+}
+nav li a:active {
+    color: #DEB887;
+}
+nav li a:hover {
+    color: white;
+    text-decoration: underline;
+}
+p a {
+    color: #6495ED;
+}
+p a:visited {
+    color: #6495ED;
+}
+p a:active {
+    color: #DEB887;
+}
+p a:hover {
+    color: #6495ED;
+    text-decoration: underline;
+}
+
+article h2 a {
+    color: black;
+}
+
+article h2 a:visited {
+    color: black;
+}
+
+article h2 a:active {
+    color: #DEB887;
+}
+
+article h2 a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+article {
+    background-color: white;
+    margin: 100px;
+    height: auto;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 50px gray;    
+}
+
+img {
+    width: 100%;
+}
+.post-date {
+    color: gray;
+}
+
+@media (min-width: 60em) {
+    header{
+        border-radius: 5px;
+        padding: 20px;
+        float: left;
+        width: 260px;
+        height: 1900px;
+        margin-left: -10px;
+        text-align: right;
+    }
+    main {
+        margin-left: 10px;
+        margin-right: 320px;
+        margin-top: 10px;
+        margin-bottom: 5px;
+        padding: 20px;
+    }
+    article{
+        margin-left: 500px;
+    }
+    img {
+        width: 50%;
+    }
+}
